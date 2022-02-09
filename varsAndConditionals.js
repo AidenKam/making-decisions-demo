@@ -31,11 +31,18 @@ if (coinLandsHeads){
     console.log('Witch King got stabbed in the face.')
 
 
-    for (let i = 0; i < 5; i++){
-        if (eowynHealth > 0 ){
-      eowynHealth = eowynHealth - WitchKingAttack}
-    console.log(`Eowyn has ${eowynHealth} left`)
-}else console.log('Eowyn is dead')
+for(let i = 0; i < 5; i++){
+    if(eowynHealth > 0 ){
+        eowynHealth = eowynHealth - WitchKingAttack
+        console.log(`Eowyn has ${eowynHealth} left`)
+    }
+    else {
+        console.log('Eowyn dead')
+    }
+}
+
+    
+
 
 // 
 // 
@@ -44,4 +51,4 @@ if (coinLandsHeads){
 
 while (eowynHealth > 0) {
     eowynHealth -= WitchKingAttack;
-}
+console.log(`Eowyn has $(eowynHealth) left`)}
